@@ -538,7 +538,7 @@ iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
     <value>从剪切板复制</value>
   </data>
   <data name="Copyright" xml:space="preserve">
-    <value>Copyright © 2010 onwards, Andrew Whewell</value>
+    <value>版权所有© 自2010, Andrew Whewell</value>
   </data>
   <data name="CopyToClipboard" xml:space="preserve">
     <value>复制到剪切板</value>
@@ -1039,15 +1039,21 @@ iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
     <value>许可证</value>
   </data>
   <data name="LicenseContent" xml:space="preserve">
-    <value>Copyright © 2010 onwards, Andrew Whewell
-All rights reserved.
+    <value>版权所有© 自2010, Andrew Whewell
+保留所有权利
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-    * Neither the name of the author nor the names of the program's contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+在满足以下条件的情况下，允许以源代码和二进制程序形式重新分发和使用，无论是否进行修改：
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OF THE SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</value>
+
+*源代码的重新发布必须保留上述版权声明、此条件列表和以下免责声明。
+
+
+*以二进制程序形式重新分发必须在分发时提供的文档和/或其他材料中复制上述版权声明、本条件列表和以下免责声明。
+
+
+*未经事先书面许可，不得使用作者姓名或程序贡献者姓名来支持或推广从本软件衍生的产品。
+
+本软件由版权所有人和贡献者“依原样”提供，任何明示或默示保证，包括但不限于对适销性和特定用途适用性的默示保证，概不负责。在任何情况下，本软件的作者均不对任何直接、间接、附带、特殊、惩戒性或后果性损害（包括但不限于购买替代货物或服务；使用、数据或利润损失；或业务中断）承担责任，无论该损害是由何种原因引起的，也不论该损害是否在合同中，严格责任，或因使用本软件而产生的侵权行为（包括疏忽或其他），即使被告知此类损害的可能性。</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>位置</value>
@@ -1237,7 +1243,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   </data>
   <data name="MLAT" xml:space="preserve">
     <value>MLAT</value>
-    <comment>** SAME AS ENGLISH ** Short for multilateration. If there's no equivalent then just leave it as MLAT</comment>
+    <comment> Short for multilateration. If there's no equivalent then just leave it as MLAT</comment>
   </data>
   <data name="MobileSite" xml:space="preserve">
     <value>移动版站点</value>
@@ -1309,7 +1315,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   </data>
   <data name="NotApplicableAbbr" xml:space="preserve">
     <value>N/A</value>
-    <comment>** SAME AS ENGLISH ** Abbreviation of "not applicable"</comment>
+    <comment>Abbreviation of "not applicable"</comment>
   </data>
   <data name="NotConnected" xml:space="preserve">
     <value>未连接</value>
@@ -1453,16 +1459,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>是 启用网站声音功能, 否 禁用.</value>
   </data>
   <data name="OptionsDescribeGeneralAutoSavePolarPlotsMinutes" xml:space="preserve">
-    <value>自动保存接收器范围图暂停间隔分钟数。设置为0禁止周期自动保存仅在程序关闭时保存。</value>
+    <value>自动保存接收器范围图间隔分钟数。设置为0禁止周期性自动保存，仅在程序关闭时保存。</value>
   </data>
   <data name="OptionsDescribeGeneralCheckForNewVersions" xml:space="preserve">
-    <value>是 允许程序在新版本程序有效下载时通知, 否 禁止检测.</value>
+    <value>是 允许程序在新版本程序可用下载时通知, 否 禁止检测.</value>
   </data>
   <data name="OptionsDescribeGeneralCheckForNewVersionsPeriodDays" xml:space="preserve">
-    <value>检测新版本间隔多少数.</value>
+    <value>检测新版本间隔多少天数.</value>
   </data>
   <data name="OptionsDescribeGeneralDisplayTimeoutSeconds" xml:space="preserve">
-    <value>航空器被网站删除显示之前，最后接收到航空器消息起必须经历秒数.</value>
+    <value>从航空器最一次收到消息后必须经过的秒数，然后才能将其从网站显示中删除。</value>
   </data>
   <data name="OptionsDescribeGeneralDownloadFlightRoutes" xml:space="preserve">
     <value>True 允许程序自动下载航班路径更新, False 禁用自动更新.</value>
@@ -1474,24 +1480,22 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>转播接收器传输消息服务器配置.</value>
   </data>
   <data name="OptionsDescribeGeneralSatcomDisplayTimeout" xml:space="preserve">
-    <value>The number of minutes that aircraft on a satellite feed remain on the map after the last transmission is received.</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>接收到最后一次传输后，卫星源的航空器在地图上停留的分钟数。</value>
   </data>
   <data name="OptionsDescribeGeneralSatcomTrackingTimeout" xml:space="preserve">
-    <value>The number of minutes that aircraft of a satellite feed continue to be tracked after their last transmission.</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>卫星源的航空器在最后一次传输后，继续保持被跟踪状态的分钟数。</value>
   </data>
   <data name="OptionsDescribeGeneralShortTrailLengthSeconds" xml:space="preserve">
-    <value>用户在网站上看到运动短轨迹的秒数.</value>
+    <value>当用户在网站上查看短轨迹时，将显示的轨迹秒数。</value>
   </data>
   <data name="OptionsDescribeGeneralTextToSpeechVoice" xml:space="preserve">
     <value>文本转换语音使用的声音.</value>
   </data>
   <data name="OptionsDescribeGeneralTrackingTimeoutSeconds" xml:space="preserve">
-    <value>停止跟踪之前，最后接收到航空器消息起必须经历秒数.</value>
+    <value>在航空器停止被跟踪之前，自上次收到来自航空器的消息以来所经过的秒数。</value>
   </data>
   <data name="OptionsDescribeGoogleMapsAPIKey" xml:space="preserve">
-    <value>Enter the Google Maps API key that should be used when the site is put onto the Internet. You do not need a Google Maps API key if the server is only being used on the local network.</value>
+    <value>输入当站点放到Internet上时应该使用的Google地图 API密钥。如果服务器仅在本地网络上使用，则不需要Google地图 API密钥。</value>
     <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="OptionsDescribeIcaoTimeout" xml:space="preserve">
@@ -1504,7 +1508,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>是，如果位置消息在数据源上应该被处理作为可计算MLAT位置。仅所需的MLAT数据源不能被识别为可计算位置消息。</value>
   </data>
   <data name="OptionsDescribeIsSatcomFeed" xml:space="preserve">
-    <value>Yes if this receiver is fetching data from a SatCom ACARS feed, such as the feed sent by JAERO. No if this is a regular ADS-B / Mode-S feed.</value>
+    <value> 如果这个接收器是从卫星通信ACARS 源获取数据，例如由JAERO发送的馈送，否 如果这是一个普通的ADS-B/Mode-S源</value>
     <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="OptionsDescribeLoginName" xml:space="preserve">
@@ -1523,7 +1527,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>是 最小化应用程序到系统托盘, 否 最小化到任务栏.</value>
   </data>
   <data name="OptionsDescribeMonoUseMarkerLabels" xml:space="preserve">
-    <value>是，采用google标记标签显示航空器标签文本；否，当运行于Microsoft .NET下在图片上绘制文本。若选择 否，一些本地图形库可能会抛出异常。</value>
+    <value>是的，使用Google标记标签库显示飞机标签文本，
+
+不，将文本绘制到图像上，就像在Microsoft.NET下运行时一样。
+
+如果设置为“否”，某些本地图形库可能会引发异常。</value>
   </data>
   <data name="OptionsDescribePassphrase" xml:space="preserve">
     <value>用于防止未授权访问的密码.如果不需要密码保留为空</value>
@@ -1536,6 +1544,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   </data>
   <data name="OptionsDescribeRawFeedAcceptableAirSurfaceTransitionSpeed" xml:space="preserve">
     <value>本地解码之前，被视为无效的航空器30秒内起飞或者降落行驶的公里数. ICAO 推荐 4.63 公里. 高的值防止检测不准确的本地解码位置.</value>
+    <comment>0421进度标记</comment>
   </data>
   <data name="OptionsDescribeRawFeedAcceptableSurfaceSpeed" xml:space="preserve">
     <value>本地解码之前，被视为无效的车辆在地面30秒内行驶的公里数. ICAO 推荐 1.4 公里. 高的值防止检测不正确的本地解码位置.</value>
