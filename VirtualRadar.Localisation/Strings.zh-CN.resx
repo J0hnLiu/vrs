@@ -122,7 +122,7 @@
     <comment>e.g. About Virtual Radar Server</comment>
   </data>
   <data name="AcceptableAirborneSpeedOutOfBounds" xml:space="preserve">
-    <value>可接受的空中局部位置速度必须在 0.005 至 45.0 之间</value>
+    <value>可接受的空中速度必须在 0.005 至 45.0 之间</value>
   </data>
   <data name="AcceptableAirSurfaceTransitionSpeedOutOfBounds" xml:space="preserve">
     <value>可接受的过渡位置速度必须在 0.003 至 20.0 之间</value>
@@ -162,27 +162,26 @@
   </data>
   <data name="AcronymByte" xml:space="preserve">
     <value>B</value>
-    <comment>** SAME AS ENGLISH ** Shorthand for byte</comment>
+    <comment>Shorthand for byte</comment>
   </data>
   <data name="AcronymGigabyte" xml:space="preserve">
     <value>GB</value>
-    <comment>** SAME AS ENGLISH ** Shorthand for 1024 x 1024 x 1024 bytes</comment>
+    <comment>Shorthand for 1024 x 1024 x 1024 bytes</comment>
   </data>
   <data name="AcronymKilobyte" xml:space="preserve">
     <value>KB</value>
-    <comment>** SAME AS ENGLISH ** Shorthand for 1024 bytes</comment>
+    <comment> Shorthand for 1024 bytes</comment>
   </data>
   <data name="AcronymKilobytePerSecond" xml:space="preserve">
-    <value>KB/sec</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>KB/秒</value>
   </data>
   <data name="AcronymMegabyte" xml:space="preserve">
     <value>MB</value>
-    <comment>** SAME AS ENGLISH ** Shorthand for 1024 x 1024 bytes</comment>
+    <comment>Shorthand for 1024 x 1024 bytes</comment>
   </data>
   <data name="AcronymTerrabyte" xml:space="preserve">
     <value>TB</value>
-    <comment>** SAME AS ENGLISH ** Shorthand for 1024 x 1024 x 1024 x 1024 bytes</comment>
+    <comment>Shorthand for 1024 x 1024 x 1024 x 1024 bytes</comment>
   </data>
   <data name="Activity" xml:space="preserve">
     <value>活动</value>
@@ -191,12 +190,10 @@
     <value>添加</value>
   </data>
   <data name="Administrators" xml:space="preserve">
-    <value>Administrators</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>管理员</value>
   </data>
   <data name="ADSB" xml:space="preserve">
     <value>ADS-B</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="ADSBAircraft" xml:space="preserve">
     <value>ADS-B 航空器</value>
@@ -218,12 +215,11 @@
     <value>航空器数据</value>
   </data>
   <data name="AircraftDetailOnlineLookupLog" xml:space="preserve">
-    <value>Aircraft Detail Online Lookup Log</value>
+    <value>航空器详情在线查找日志</value>
     <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="AircraftDetailsOnlineLookup" xml:space="preserve">
-    <value>Aircraft details online lookup</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>航空器详情在线查找</value>
   </data>
   <data name="AircraftListJson" xml:space="preserve">
     <value>航空器列表(JSON)</value>
@@ -236,12 +232,12 @@
     <value>允许</value>
   </data>
   <data name="AllowCorsDomainsRequired" xml:space="preserve">
-    <value>You must supply a semicolon separated list of allowed CORS domains</value>
-    <comment>** SAME AS ENGLISH ** CORS is the name of a web standard</comment>
+    <value>您必须提供一个分号分隔的允许CORS的域列表</value>
+    <comment> CORS is the name of a web standard</comment>
   </data>
   <data name="AllowedCorsDomains" xml:space="preserve">
-    <value>Allowed CORS domains</value>
-    <comment>** SAME AS ENGLISH ** CORS is the name of a web standard</comment>
+    <value>允许CORS的域</value>
+    <comment> CORS is the name of a web standard</comment>
   </data>
   <data name="AllowInternetProximityGadgets" xml:space="preserve">
     <value>允许 Internet 邻近小工具</value>
@@ -260,7 +256,7 @@
   <data name="ApplicationDescription" xml:space="preserve">
     <value>此应用程序免费。
 
-这是一个用于显示ADS-B接收器收集到的航空器的便捷 Web 服务器。
+这是一个用于显示ADS-B接收器接收到的航空器的简单的 Web 服务器。
 
 应用程序图标来自 aha-soft (http://www.aha-soft.com)。
 
@@ -269,11 +265,15 @@
 
 iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
 
-中文翻译由 Vincent Deng完成。
+中文翻译由 Vincent Deng完成。John Liu在2020年对其进行了部分修改。
 德语翻译由 Eva Knapp 与 Michael Leigh完成。
 俄语翻译由 Sergey Serov /sergsero 及其 朋友完成。
 法语翻译由 Francois /F5ANN 完成。</value>
     <comment>** MULTILINE, PLEASE CLICK IN FIELD TO SEE ALL **</comment>
+  </data>
+  <data name="AssumeDF18CF1IsIcao" xml:space="preserve">
+    <value>将DF18 CF1 标识符视为 ICAO</value>
+    <comment>added by John</comment>
   </data>
   <data name="Audio" xml:space="preserve">
     <value>声音</value>
@@ -283,19 +283,19 @@ iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
     <value>认证</value>
   </data>
   <data name="AutomaticallyDownloadNewRoutes" xml:space="preserve">
-    <value>下载航班路径更新</value>
+    <value>自动下载新航班路径</value>
   </data>
   <data name="AutoReconnectAtStartup" xml:space="preserve">
-    <value>在启动时重新连接</value>
+    <value>在启动时自动重新连接</value>
   </data>
   <data name="AutoSavePolarPlots" xml:space="preserve">
     <value>自动保存范围图</value>
   </data>
   <data name="AutoSavePolarPlotsOutOfBounds" xml:space="preserve">
-    <value>自动保存极限图的值至少0秒</value>
+    <value>自动保存范围图的值至少0秒</value>
   </data>
   <data name="AutoStartUPnP" xml:space="preserve">
-    <value>在启动时将服务器放在 Internet上 </value>
+    <value>启动时将服务器放在 Internet上 </value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>返回</value>
@@ -304,25 +304,25 @@ iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
     <value>队列</value>
   </data>
   <data name="BadChecksum" xml:space="preserve">
-    <value>错误校验和</value>
+    <value>错误的校验和</value>
   </data>
   <data name="BadListenerTimeout" xml:space="preserve">
-    <value>失败监听器超时</value>
+    <value>失败的监听器超时</value>
   </data>
   <data name="BadlyFormatted" xml:space="preserve">
     <value>格式错误</value>
   </data>
   <data name="BaseStation" xml:space="preserve">
     <value>BaseStation</value>
-    <comment>** SAME AS ENGLISH ** May not need to be translated, it's the name of a program</comment>
+    <comment> May not need to be translated, it's the name of a program</comment>
   </data>
   <data name="BaseStationStatus" xml:space="preserve">
     <value>Basestation 状态</value>
     <comment>BaseStation is a program name and does not need translating, status refers to TCP connection to program</comment>
   </data>
   <data name="BeastModeSFeed" xml:space="preserve">
-    <value>AVR or Beast Raw Feed</value>
-    <comment>** SAME AS ENGLISH ** 'Beast' is the name of a product and may not need translating</comment>
+    <value>AVR or Beast 原始源</value>
+    <comment>'Beast' is the name of a product and may not need translating</comment>
   </data>
   <data name="BytesBuffered" xml:space="preserve">
     <value>已缓冲字节</value>
@@ -383,36 +383,34 @@ iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
     <comment>\r\n is a newline in the message dialog, keep those intact</comment>
   </data>
   <data name="CannotParseRouteFile" xml:space="preserve">
-    <value>无法解析路由状态文件</value>
+    <value>无法解析航班路径文件</value>
     <comment>Route as in flight route, state file is a file containing version numbers of flight route data</comment>
   </data>
   <data name="CannotResolveAddress" xml:space="preserve">
     <value>地址 {0} 无法被解析</value>
   </data>
   <data name="CannotStartDefaultBrowser" xml:space="preserve">
-    <value>Could not start the default browser, do you have one registered? The exception was "{0}".</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>无法启动默认浏览器，您是否有默认浏览器？异常是： "{0}".</value>
   </data>
   <data name="CannotStartDefaultBrowserTitle" xml:space="preserve">
-    <value>Cannot Start Default Browser</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>无法启动默认浏览器</value>
   </data>
   <data name="CannotStartWebServerFull" xml:space="preserve">
-    <value>无法启动 Web 服务器在端口: {0}</value>
+    <value>无法在端口: {0}启动 Web 服务器</value>
   </data>
   <data name="CannotStartWebServerTitle" xml:space="preserve">
     <value>无法启动 Web 服务器</value>
     <comment>Title for an error message box</comment>
   </data>
   <data name="CaughtExceptionInReverseDNS" xml:space="preserve">
-    <value>解析DNS期间发生异常</value>
+    <value>反向解析DNS期间发生异常</value>
   </data>
   <data name="CheckForNewVersions" xml:space="preserve">
     <value>检查程序更新</value>
   </data>
   <data name="Cidr" xml:space="preserve">
     <value>CIDR</value>
-    <comment>** SAME AS ENGLISH ** CIDR = Classless Inter-Domain Routing, standard TCP/IP term</comment>
+    <comment> CIDR = Classless Inter-Domain Routing, standard TCP/IP term</comment>
   </data>
   <data name="CidrEdit" xml:space="preserve">
     <value>CIDR编辑器</value>
@@ -433,36 +431,36 @@ iPhone CSS 来自 jQTouch 项目 (http://www.jqtouch.com)。
     <value>请指定用于最近航空器桌面小部件的接收器</value>
   </data>
   <data name="CoarseListenerTimeoutInvalid" xml:space="preserve">
-    <value>监听器超时至少10秒</value>
+    <value>监听器超时至少为10秒</value>
   </data>
   <data name="CoarseListenerTimeoutUnparseable" xml:space="preserve">
     <value>不能解析监听器超时值 "{0}"</value>
   </data>
   <data name="CommandLineHelp" xml:space="preserve">
     <value>-culture:xx-YY
-Set the server user interface language to the ISO code page specified (e.g. en-GB, ru-RU etc.)
+将服务器的用户界面语言设置为指定的ISO代码页。(例如：zh-CN, ru-RU 等)
 
 -showConfigFolder
-Report the location of the configuration folder that this instance is using.
+报告这个实例运行的配置文件夹地址。
 
 -defaultFonts
-Disable the replacement of Windows fonts with Arial Unicode MS when running with a non-Western code page.
+禁止在使用非西方代码页运行时用Arial Unicode MS替换Windows字体。
 
 -noGUI
-Do not show a user interface. Under Windows this will open a separate console window for the program's console output.
+不显示用户界面。在Windows下这将会打开一个单独的控制台窗口用以此程序的控制台输出。
 
 -createAdmin:user -password:pwd
-Creates a new administrator user. Replace "user" and "pwd" with your desired username and password.
+创建一个新的管理员用户。将“user”和“pdw”替换为您期望的用户名和密码。
 
 -workingFolder:folder
-Use the folder specified instead of the default configuration folder. This also allows multiple instances of VRS to be run on the same machine. Specify a different working folder for each instance.
+使用指定的工作文件夹以取代默认的配置文件夹。这可以允许多个VRS实例在同一台机器上运行。为每个实例指定一个不同的工作文件夹。
 
 -? or /? or --help
-Show this message.</value>
+显示此信息。</value>
     <comment>** SAME AS ENGLISH ** This is a multi-line message that is displayed on the console</comment>
   </data>
   <data name="CommandLineHelpTitle" xml:space="preserve">
-    <value>Command Line Options</value>
+    <value>命令行选项</value>
     <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="CompressedPort30003" xml:space="preserve">
@@ -500,10 +498,10 @@ Show this message.</value>
     <comment>Logged sessions for a client connecting to the web server</comment>
   </data>
   <data name="ConnectionSnapshotTakenBody" xml:space="preserve">
-    <value>当前连接快照已经被截取</value>
+    <value>已截取当前连接快照</value>
   </data>
   <data name="ConnectionSnapshotTakenTitle" xml:space="preserve">
-    <value>快照被截取</value>
+    <value>已截取快照</value>
   </data>
   <data name="ConnectionStatus" xml:space="preserve">
     <value>连接状态</value>
@@ -515,7 +513,7 @@ Show this message.</value>
     <value>连接类型</value>
   </data>
   <data name="Connector" xml:space="preserve">
-    <value>连接</value>
+    <value>连接器</value>
   </data>
   <data name="ConnectorActivityLog" xml:space="preserve">
     <value>连接活动日志</value>
@@ -528,10 +526,10 @@ Show this message.</value>
     <value>连接</value>
   </data>
   <data name="ContrastMapTitle" xml:space="preserve">
-    <value>对比</value>
+    <value>高对比</value>
   </data>
   <data name="ConvertedBasicAuthenticationUser" xml:space="preserve">
-    <value>转换基本身份验证的用户</value>
+    <value>转换自基本身份验证的用户</value>
   </data>
   <data name="Copy" xml:space="preserve">
     <value>复制</value>
@@ -541,13 +539,12 @@ Show this message.</value>
   </data>
   <data name="Copyright" xml:space="preserve">
     <value>Copyright © 2010 onwards, Andrew Whewell</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="CopyToClipboard" xml:space="preserve">
     <value>复制到剪切板</value>
   </data>
   <data name="CouldNotCheckForUpdate" xml:space="preserve">
-    <value>不能检查最新版本</value>
+    <value>不能检查更新版本</value>
   </data>
   <data name="CouldNotConnect" xml:space="preserve">
     <value>不能连接</value>
@@ -556,7 +553,7 @@ Show this message.</value>
     <value>不能发现清单</value>
   </data>
   <data name="CouldNotLoadGoogleMaps" xml:space="preserve">
-    <value>不能加载 Google Maps</value>
+    <value>不能加载 Google 地图</value>
   </data>
   <data name="CouldNotParseManifest" xml:space="preserve">
     <value>不能解析清单: {0}</value>
@@ -565,22 +562,19 @@ Show this message.</value>
     <value>计数</value>
   </data>
   <data name="CountPluginsCouldNotBeLoaded" xml:space="preserve">
-    <value>{0:N0} 插件不能被加载</value>
+    <value>{0:N0} 插件不能加载</value>
   </data>
   <data name="Country" xml:space="preserve">
-    <value>Country</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>国家或地区</value>
   </data>
   <data name="CreateAdminUserAlreadyExists" xml:space="preserve">
-    <value>The user name supplied with the -createAdmin option already exists</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>与-createAdmin选项一起提供的用户名已存在</value>
   </data>
   <data name="CreateAdminUserMissing" xml:space="preserve">
-    <value>You must supply a user name with the -createAdmin option. Do not put a space between the option and the name.</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>必须为-createAdmin选项提供用户名。不要在选项和用户名之间加空格。</value>
   </data>
   <data name="CurrentRouteData" xml:space="preserve">
-    <value>当前路径数据</value>
+    <value>当前航班路径数据</value>
     <comment>Label for status message describing the flight route data held by the program</comment>
   </data>
   <data name="Data" xml:space="preserve">
@@ -593,8 +587,7 @@ Show this message.</value>
     <value>数据源状态</value>
   </data>
   <data name="DataProvider" xml:space="preserve">
-    <value>Data provider</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>数据提供者</value>
   </data>
   <data name="DataSource" xml:space="preserve">
     <value>数据源</value>
@@ -604,8 +597,7 @@ Show this message.</value>
     <value>请输入要连接的数据源IP地址</value>
   </data>
   <data name="DataSourceRequired" xml:space="preserve">
-    <value>You must choose a feed format</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>您必须选择一个源格式</value>
   </data>
   <data name="DaysBetweenChecks" xml:space="preserve">
     <value>检查更新间隔天数</value>
@@ -652,7 +644,7 @@ Show this message.</value>
     <value>桌面站点</value>
   </data>
   <data name="DesktopVersion" xml:space="preserve">
-    <value>Desktop 版本</value>
+    <value>桌面站点版本</value>
     <comment>The version of the site for desktop computers</comment>
   </data>
   <data name="DesktopVersionOld" xml:space="preserve">
@@ -660,7 +652,6 @@ Show this message.</value>
   </data>
   <data name="DF" xml:space="preserve">
     <value>DF</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="DirectoryEntryKey" xml:space="preserve">
     <value>公共目录密钥</value>
@@ -679,15 +670,14 @@ Show this message.</value>
     <comment>Title of dialog box that lets the user force the download of flight route data</comment>
   </data>
   <data name="DownloadGlobalAirPressureReadings" xml:space="preserve">
-    <value>Download air pressure readings</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>下载气压读数</value>
   </data>
   <data name="DownloadingPleaseWait" xml:space="preserve">
     <value>下载中, 请等待</value>
   </data>
   <data name="Dropped" xml:space="preserve">
-    <value>Dropped</value>
-    <comment>** SAME AS ENGLISH ** As in the number of items discarded from a queue</comment>
+    <value>已丢弃</value>
+    <comment>As in the number of items discarded from a queue</comment>
   </data>
   <data name="Duration" xml:space="preserve">
     <value>历时</value>
@@ -696,7 +686,7 @@ Show this message.</value>
     <value>显示超时必须在 5 至 540 之间</value>
   </data>
   <data name="DurationOfShortTrailsOutOfBounds" xml:space="preserve">
-    <value>短轨迹值必须在 1 至 1800之间</value>
+    <value>短轨迹超时值必须在 1 至 1800之间</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>编辑</value>
@@ -709,14 +699,14 @@ Show this message.</value>
     <value>启用压缩</value>
   </data>
   <data name="EnableCorsSupport" xml:space="preserve">
-    <value>Enable CORS support</value>
-    <comment>** SAME AS ENGLISH ** CORS is the name of a web standard</comment>
+    <value>启用CORS支持</value>
+    <comment> CORS is the name of a web standard</comment>
   </data>
   <data name="Enabled" xml:space="preserve">
-    <value>启用</value>
+    <value>已启用</value>
   </data>
   <data name="EnableMinifying" xml:space="preserve">
-    <value>启用最小化</value>
+    <value>启用缩减</value>
     <comment>"Minifying" is where a CSS or JavaScript source file is compressed to improve a page's load time and to improve the speed at which they are executed by the browser.</comment>
   </data>
   <data name="EnableUPnp" xml:space="preserve">
@@ -726,20 +716,19 @@ Show this message.</value>
     <value>结束日期必须等于或晚于开始日期</value>
   </data>
   <data name="Environment" xml:space="preserve">
-    <value>Environment</value>
-    <comment>** SAME AS ENGLISH ** As in the run-time environment</comment>
+    <value>环境</value>
+    <comment> As in the run-time environment</comment>
   </data>
   <data name="EnvironmentDotNet" xml:space="preserve">
     <value>.NET {0}-bit</value>
-    <comment>** SAME AS ENGLISH ** As in ".NET 32-bit" or ".NET 64-bit"</comment>
+    <comment> As in ".NET 32-bit" or ".NET 64-bit"</comment>
   </data>
   <data name="EnvironmentMono" xml:space="preserve">
     <value>Mono {0}-bit</value>
-    <comment>** SAME AS ENGLISH ** As in "Mono 32-bit" or "Mono 64-bit"</comment>
+    <comment> As in "Mono 32-bit" or "Mono 64-bit"</comment>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>Error</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>错误</value>
   </data>
   <data name="Exception" xml:space="preserve">
     <value>异常</value>
@@ -748,22 +737,21 @@ Show this message.</value>
     <value>异常</value>
   </data>
   <data name="ExceptionWhenCheckingFile" xml:space="preserve">
-    <value>不能检测文件名: {0}</value>
+    <value>不能检查文件: {0}</value>
     <comment>Where {0} is an exception message</comment>
   </data>
   <data name="ExceptionWhenCheckingFolder" xml:space="preserve">
-    <value>不能检测文件夹名: {0}</value>
+    <value>不能检查文件夹: {0}</value>
     <comment>Where {0} is the name of a folder</comment>
   </data>
   <data name="ExceptionWhenCheckingValue" xml:space="preserve">
-    <value>检查值: {0} 时引发异常</value>
+    <value>检查值: {0} 时发现异常</value>
   </data>
   <data name="ExportedSettings" xml:space="preserve">
     <value>导出的设置</value>
   </data>
   <data name="ExtendedBaseStation" xml:space="preserve">
     <value>BaseStation + MLAT</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="FakeAircraftMode" xml:space="preserve">
     <value>伪装航空器模式</value>
@@ -776,8 +764,7 @@ Show this message.</value>
     <value>快地面全局位置限制必须在 1 至 75</value>
   </data>
   <data name="FeedAndServerNamesMustBeUnique" xml:space="preserve">
-    <value>Receivers, merged feeds and rebroadcast servers must have unique names</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>接收器，合并源及转播服务器必须要有独一无二的名称</value>
   </data>
   <data name="FeedStatus" xml:space="preserve">
     <value>数据源状态</value>
@@ -792,7 +779,7 @@ Show this message.</value>
     <value>首次发现</value>
   </data>
   <data name="FlagsFolder" xml:space="preserve">
-    <value>标志文件夹</value>
+    <value>航空公司标志文件夹</value>
     <comment>The folder containing images of country or airline flags</comment>
   </data>
   <data name="FlightSimulatorXIsNotInstalled" xml:space="preserve">
@@ -843,47 +830,44 @@ Show this message.</value>
     <comment>Miscellaneous options</comment>
   </data>
   <data name="GoogleMaps" xml:space="preserve">
-    <value>Google Maps</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>Google 地图</value>
   </data>
   <data name="GoogleMapsAPIKey" xml:space="preserve">
-    <value>Google Maps API key</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>Google 地图 API key</value>
   </data>
   <data name="GoogleMapZoomOutOfBounds" xml:space="preserve">
-    <value>Google Maps 缩放级别必须在 0 至 19</value>
+    <value>Google 地图缩放级别必须在 0 至 19</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>Help</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>帮助</value>
   </data>
   <data name="Hidden" xml:space="preserve">
     <value>隐藏</value>
   </data>
   <data name="HideFromWebSite" xml:space="preserve">
-    <value>从WebSite隐藏</value>
+    <value>从网站隐藏</value>
   </data>
   <data name="ICAO" xml:space="preserve">
-    <value>ICAO 代码</value>
+    <value>ICAO</value>
     <comment>The initials of the United Nations organisation</comment>
   </data>
   <data name="IcaoTimeout" xml:space="preserve">
-    <value>ICAO代码超时</value>
+    <value>ICAO超时</value>
   </data>
   <data name="IcaoTimeoutOutOfBounds" xml:space="preserve">
-    <value>超时必须在 1 至 30 秒</value>
+    <value>ICAO超时必须在 1 至 30 秒</value>
   </data>
   <data name="IcaoTimeoutTitle" xml:space="preserve">
-    <value>ICAO代码超时</value>
+    <value>ICAO超时</value>
   </data>
   <data name="IdleTimeout" xml:space="preserve">
-    <value>Idle 超时</value>
+    <value>空闲超时</value>
   </data>
   <data name="IgnoreAircraftWithNoPosition" xml:space="preserve">
     <value>忽略无位置航空器</value>
   </data>
   <data name="IgnoreBadMessages" xml:space="preserve">
-    <value>忽略格式错误消息</value>
+    <value>忽略错误格式的消息</value>
   </data>
   <data name="IgnoreCallsignsInBds20" xml:space="preserve">
     <value>忽略来自 BDS2,0 消息的航班号</value>
@@ -895,15 +879,15 @@ Show this message.</value>
     <value>忽略 Mode-S</value>
   </data>
   <data name="IgnoreUnassignedIcao" xml:space="preserve">
-    <value>忽略未分配ICAO</value>
+    <value>忽略未分配的ICAO</value>
   </data>
   <data name="Images" xml:space="preserve">
     <value>图片</value>
     <comment>A count of images</comment>
   </data>
   <data name="Include" xml:space="preserve">
-    <value>Include</value>
-    <comment>** SAME AS ENGLISH ** As in "include this item in the list"</comment>
+    <value>包括</value>
+    <comment>As in "include this item in the list"</comment>
   </data>
   <data name="InitialDistanceUnits" xml:space="preserve">
     <value>初始距离单位</value>
@@ -957,13 +941,12 @@ Show this message.</value>
   </data>
   <data name="Internet" xml:space="preserve">
     <value>Internet</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="InternetClientCanShowPolarPlots" xml:space="preserve">
     <value>Internet 用户可以看到接收器范围图</value>
   </data>
   <data name="InternetClientCanSubmitRoutes" xml:space="preserve">
-    <value>Internet 用户可以提交路径</value>
+    <value>Internet 用户可以提交航班路径</value>
   </data>
   <data name="InternetClients" xml:space="preserve">
     <value>Internet 客户端</value>
@@ -1002,18 +985,16 @@ Show this message.</value>
     <value>IP地址</value>
   </data>
   <data name="IsSatcomFeed" xml:space="preserve">
-    <value>Is SatCom ACARS feed</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>是卫星通讯ACARS源</value>
   </data>
   <data name="JustFlightSimulatorX" xml:space="preserve">
-    <value>仅飞行模拟X</value>
+    <value>仅Flight Simulator X</value>
   </data>
   <data name="Kilometres" xml:space="preserve">
     <value>公里</value>
   </data>
   <data name="KilometresOver30Seconds" xml:space="preserve">
-    <value>km / 30 seconds</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>公里每30秒</value>
   </data>
   <data name="KilometresPerHour" xml:space="preserve">
     <value>公里每小时</value>
@@ -1026,24 +1007,24 @@ Show this message.</value>
     <value>节</value>
   </data>
   <data name="LastConnectorException" xml:space="preserve">
-    <value>最后异常</value>
+    <value>最后的异常</value>
   </data>
   <data name="LastRequest" xml:space="preserve">
-    <value>最后请求</value>
+    <value>最后的请求</value>
     <comment>The time of the last request from a client to the server</comment>
   </data>
   <data name="LastSeen" xml:space="preserve">
     <value>最后发现</value>
   </data>
   <data name="LastURL" xml:space="preserve">
-    <value>最后URL</value>
+    <value>最后的URL</value>
     <comment>The last URL requested by a client</comment>
   </data>
   <data name="LaterVersionAvailable" xml:space="preserve">
-    <value>较新程序版本有效</value>
+    <value>较新程序版本可用</value>
   </data>
   <data name="LatestVersion" xml:space="preserve">
-    <value>这是程序有效的最新版本</value>
+    <value>这是程序可用的最新版本</value>
   </data>
   <data name="Latitude" xml:space="preserve">
     <value>纬度</value>
@@ -1055,7 +1036,7 @@ Show this message.</value>
     <value>纬度必须在 -90.0 (南) 至 90.0 (北)</value>
   </data>
   <data name="License" xml:space="preserve">
-    <value>许可</value>
+    <value>许可证</value>
   </data>
   <data name="LicenseContent" xml:space="preserve">
     <value>Copyright © 2010 onwards, Andrew Whewell
@@ -1067,7 +1048,6 @@ Redistribution and use in source and binary forms, with or without modification,
     * Neither the name of the author nor the names of the program's contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OF THE SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</value>
-    <comment>** SAME AS ENGLISH ** ** MULTILINE FIELD **</comment>
   </data>
   <data name="Local" xml:space="preserve">
     <value>位置</value>
@@ -1086,16 +1066,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>登录名</value>
   </data>
   <data name="LoginNameExists" xml:space="preserve">
-    <value>登录名已经被使用</value>
+    <value>此登录名已经被使用</value>
   </data>
   <data name="LoginNameMissing" xml:space="preserve">
-    <value>未提供用户登录名</value>
+    <value>用户未提供登录名</value>
   </data>
   <data name="LoginNameTitle" xml:space="preserve">
     <value>登录名</value>
   </data>
   <data name="LoginNameUnknown" xml:space="preserve">
-    <value>找不到用户登录名 '{0}'</value>
+    <value>找不到登录名 '{0}'的用户</value>
   </data>
   <data name="LongFrame" xml:space="preserve">
     <value>长帧</value>
@@ -1107,12 +1087,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>经度必须在 180.0 (东) and -180.0 (西)</value>
   </data>
   <data name="LookupAircraftDetailsOnline" xml:space="preserve">
-    <value>Lookup aircraft details online</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>在线查找航空器详情</value>
   </data>
   <data name="Manufacturer" xml:space="preserve">
-    <value>Manufacturer</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>制造商</value>
   </data>
   <data name="MaxAirborneSpeed" xml:space="preserve">
     <value>最大空中速度</value>
@@ -1124,14 +1102,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>最大传输速度</value>
   </data>
   <data name="menuAbout" xml:space="preserve">
-    <value>&amp;A关于...</value>
+    <value>关于(&amp;A)...</value>
   </data>
   <data name="menuAircraftOnlineDetailLookupLog" xml:space="preserve">
-    <value>Aircraft Online Lookup Log</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>航空器在线查询日志</value>
   </data>
   <data name="menuCheckForUpdates" xml:space="preserve">
-    <value>&amp;C检查更新</value>
+    <value>检查更新(&amp;C)</value>
   </data>
   <data name="menuConfigureFeed" xml:space="preserve">
     <value>配置源</value>
@@ -1140,54 +1117,54 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>配置转发服务器</value>
   </data>
   <data name="menuConnectionClientLog" xml:space="preserve">
-    <value>连接 &amp;Client 日志...</value>
+    <value>连接客户端日志(&amp;C) ...</value>
   </data>
   <data name="menuConnectionSessionLog" xml:space="preserve">
-    <value>连接 &amp;Session 日志...</value>
+    <value>连接会话日志(&amp;S)...</value>
   </data>
   <data name="menuDebug" xml:space="preserve">
-    <value>&amp;D调试</value>
+    <value>调试(&amp;D)</value>
   </data>
   <data name="menuDiagnostics" xml:space="preserve">
-    <value>诊断</value>
+    <value>诊断(&amp;D)</value>
   </data>
   <data name="menuDownloadData" xml:space="preserve">
-    <value>下载&amp;a数据...</value>
+    <value>下载数据(&amp;A)...</value>
   </data>
   <data name="menuExit" xml:space="preserve">
-    <value>&amp;x退出</value>
+    <value>退出(&amp;x)</value>
   </data>
   <data name="menuFakeAircraftMode" xml:space="preserve">
-    <value>&amp;F伪装航空器模式...</value>
+    <value>伪装航空器模式(&amp;F)...</value>
   </data>
   <data name="menuFile" xml:space="preserve">
-    <value>&amp;F文件</value>
+    <value>文件(&amp;F)</value>
     <comment>Top-level menu</comment>
   </data>
   <data name="menuFlightSimulatorXMode" xml:space="preserve">
     <value>Flight &amp;Simulator X 模式...</value>
   </data>
   <data name="menuHelp" xml:space="preserve">
-    <value>&amp;H帮助</value>
+    <value>帮助(&amp;H)</value>
     <comment>Top-level menu</comment>
   </data>
   <data name="menuOpenConnectionActivityLog" xml:space="preserve">
-    <value>打开 &amp;C连接活动日志</value>
+    <value>打开 连接活动日志(&amp;C)</value>
   </data>
   <data name="menuOpenVirtualRadarLog" xml:space="preserve">
-    <value>&amp;O打开 VirtualRadarServerLog.txt</value>
+    <value>打开 VirtualRadarServerLog.txt(&amp;O)</value>
   </data>
   <data name="menuOptions" xml:space="preserve">
-    <value>&amp;O选项...</value>
+    <value>选项(&amp;O)...</value>
   </data>
   <data name="menuPlugins" xml:space="preserve">
-    <value>&amp;P插件...</value>
+    <value>插件(&amp;P)...</value>
   </data>
   <data name="menuReconnectToDataFeed" xml:space="preserve">
-    <value>&amp;R重新连接到数据源</value>
+    <value>重新连接到数据源(&amp;R)</value>
   </data>
   <data name="menuResetReceiverRange" xml:space="preserve">
-    <value>重置接收器范围 &amp;P图</value>
+    <value>重置接收器范围图( &amp;P)</value>
   </data>
   <data name="menuShowExceptions" xml:space="preserve">
     <value>显示异常</value>
@@ -1196,13 +1173,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>显示队列</value>
   </data>
   <data name="menuShowWindow" xml:space="preserve">
-    <value>&amp;S显示窗口</value>
+    <value>显示窗口(&amp;S)</value>
   </data>
   <data name="menuStatistics" xml:space="preserve">
     <value>统计</value>
   </data>
   <data name="menuTools" xml:space="preserve">
-    <value>&amp;T工具</value>
+    <value>工具(&amp;T)</value>
     <comment>Top-level menu</comment>
   </data>
   <data name="menuUsers" xml:space="preserve">
@@ -1247,17 +1224,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>最小刷新值必须在 0 至 3600</value>
   </data>
   <data name="Minutes" xml:space="preserve">
-    <value>minutes</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>分</value>
   </data>
   <data name="Miscellaneous" xml:space="preserve">
     <value>杂项</value>
   </data>
   <data name="MissingFileName" xml:space="preserve">
-    <value>文件名缺失</value>
+    <value>缺少文件名</value>
   </data>
   <data name="MissingFolder" xml:space="preserve">
-    <value>文件夹缺失</value>
+    <value>缺少文件夹</value>
   </data>
   <data name="MLAT" xml:space="preserve">
     <value>MLAT</value>
@@ -1267,19 +1243,17 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>移动版站点</value>
   </data>
   <data name="MobileVersion" xml:space="preserve">
-    <value>Mobile 版本</value>
+    <value>移动版本</value>
     <comment>The version of the site for smartphones and tablet computers</comment>
   </data>
   <data name="MobileVersionOld" xml:space="preserve">
-    <value>旧的 Mobile 版本</value>
+    <value>旧的移动版本</value>
   </data>
   <data name="Model" xml:space="preserve">
     <value>Model</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="ModeS" xml:space="preserve">
     <value>Mode-S</value>
-    <comment>** SAME AS ENGLISH **</comment>
   </data>
   <data name="MonoSettings" xml:space="preserve">
     <value>Mono设置</value>
@@ -1319,7 +1293,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>否</value>
   </data>
   <data name="NoAdsbPayload" xml:space="preserve">
-    <value>无 ADS-B 承载</value>
+    <value>无 ADS-B 载荷</value>
   </data>
   <data name="None" xml:space="preserve">
     <value>无</value>
@@ -1328,7 +1302,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>普通</value>
   </data>
   <data name="NoSnapshotBody" xml:space="preserve">
-    <value>无快照已被截取</value>
+    <value>未截取快照</value>
   </data>
   <data name="NoSnapshotTitle" xml:space="preserve">
     <value>无快照</value>
@@ -1362,13 +1336,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <comment>As in the organisation operating an aircraft</comment>
   </data>
   <data name="OptionDescribeReceiverUsageHideFromWebSite" xml:space="preserve">
-    <value>这个接收器将不会出现在WebSite上但它可以拥有转发服务器设置并且它可以与其他数据源合并。</value>
+    <value>这个接收器将不会出现在网站上但它可以拥有转发服务器设置并且它可以与其他数据源合并。</value>
   </data>
   <data name="OptionDescribeReceiverUsageMergeOnly" xml:space="preserve">
-    <value>这个接收器将不会出现在WebSite上并且仅某些转发服务器格式可以用于它。然而，它可以被其他数据源合并且它相比普通或隐藏的接收器消耗很少的资源。</value>
+    <value>这个接收器将不会出现在网站上并且仅某些转发服务器格式可以用于它。然而，它可以被其他数据源合并且它相比普通或隐藏的接收器消耗很少的资源。</value>
   </data>
   <data name="OptionDescribeReceiverUsageNormal" xml:space="preserve">
-    <value>这个接收器将出现在WebSite上，它可以拥有转发服务器设置并且它可以与其他数据源合并。</value>
+    <value>这个接收器将出现在网站上，它可以拥有转发服务器设置并且它可以与其他数据源合并。</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>选项</value>
@@ -1380,7 +1354,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>数据源</value>
   </data>
   <data name="OptionsDescribeCidr" xml:space="preserve">
-    <value>输入一个单独IP地址或者CIDR格式的地址范围(例如：192.168.0.41 or 192.168.0.0/24)</value>
+    <value>输入一个单独IP地址或者CIDR格式的地址范围(例如：192.168.0.41 或192.168.0.0/24)</value>
   </data>
   <data name="OptionsDescribeClosestAircraftReceiverId" xml:space="preserve">
     <value>用于最近航空器桌面小工具请求最近航空器详情使用的接收器.</value>
@@ -1395,7 +1369,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>是，自动在程序启动时保持尝试建立到数据源的连接，否，只尝试一次，并在无法连接时报告错误.</value>
   </data>
   <data name="OptionsDescribeDataSourcesBaudRate" xml:space="preserve">
-    <value>当使用串行设备通信时使用的每秒脉冲.仅用于串行数据源。</value>
+    <value>当使用串行设备通信时使用的每秒脉冲数.仅用于串行数据源。</value>
   </data>
   <data name="OptionsDescribeDataSourcesComPort" xml:space="preserve">
     <value>用于读取数据的串行设备名称. 仅用于串行数据源.</value>
@@ -1410,7 +1384,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>当使用串行设备通讯时每字节发送位数. 仅用于串行数据源.</value>
   </data>
   <data name="OptionsDescribeDataSourcesDataSource" xml:space="preserve">
-    <value>将发送航空器数据到 Virtual Radar Server的接收器或者程序. AVR 选项支持 *, @ 和 :为消息的  Beast 二进制格式的消息.</value>
+    <value>将发送航空器数据到 Virtual Radar Server的接收器或者程序. AVR 选项支持 *, @ 和 : 消息的以及  Beast 二进制格式的消息.</value>
   </data>
   <data name="OptionsDescribeDataSourcesFlagsFolder" xml:space="preserve">
     <value>包含使用 ICAO 航空公司代码作为文件名的航空公司标志图像文件的文件夹.</value>
@@ -1419,17 +1393,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>当使用串行设备通讯时使用的流控制协议. 仅用于串行数据源.</value>
   </data>
   <data name="OptionsDescribeDataSourcesIdleTimeout" xml:space="preserve">
-    <value>断开源的连接之前没有数据接收并且keep-alive包未使用时等待的秒数.</value>
+    <value>没有数据接收并且keep-alive包未使用时，断开源的连接之前等待的秒数.</value>
   </data>
   <data name="OptionsDescribeDataSourcesIgnoreBadConnection" xml:space="preserve">
     <value>否 当收到错误格式消息断开数据源, 是 忽略错误消息并保持已连接到数据源.</value>
   </data>
   <data name="OptionsDescribeDataSourcesLookupAircraftDetailsOnline" xml:space="preserve">
-    <value>Yes if missing aircraft details should be fetched from an online source and cached locally, no to only use the local BaseStation.sqb as a source of aircraft data</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>是 丢失的航空器详情应当从在线源获取并在本地换成，否 只使用本地的BaseStation.sqb 作为航空器数据源。</value>
   </data>
   <data name="OptionsDescribeDataSourcesParity" xml:space="preserve">
-    <value>使用串行设备通讯时应用的奇偶校验. 仅用于串行数据源.</value>
+    <value>使用串行设备通讯时应用奇偶校验. 仅用于串行数据源.</value>
   </data>
   <data name="OptionsDescribeDataSourcesPicturesFolder" xml:space="preserve">
     <value>包含使用航空器注册号和/或 ICAO 代码作为文件名的航空器照片的文件夹.</value>
@@ -1441,13 +1414,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>是 在图片文件夹的子文件夹范围内搜索图片, 否 仅在图片文件夹范围内搜索图片.</value>
   </data>
   <data name="OptionsDescribeDataSourcesShutdownText" xml:space="preserve">
-    <value>断开连接时发送到接收器的命令.MiniADSB-based 接收器 应该发送 #43-00\r. 仅用于串行数据源.</value>
+    <value>断开连接时发送到接收器的命令.基于MiniADSB的接收器 应该发送 #43-00\r. 仅用于串行数据源.</value>
   </data>
   <data name="OptionsDescribeDataSourcesSilhouettesFolder" xml:space="preserve">
     <value>包含使用航空器ICAO型号类型代码作为文件名的轮廓图像文件的文件夹.</value>
   </data>
   <data name="OptionsDescribeDataSourcesStartupText" xml:space="preserve">
-    <value>一旦连接建立发送到接收器的命令. MiniADSB-based 接收器 应该发送 #43-02\r. 仅用于串行数据源.</value>
+    <value>一旦连接建立发送到接收器的命令. 基于MiniADSB的接收器 应该发送 #43-02\r. 仅用于串行数据源.</value>
   </data>
   <data name="OptionsDescribeDataSourcesStopBits" xml:space="preserve">
     <value>使用串行设备通讯时每个字节结束的位数. 仅用于串行数据源.</value>
@@ -1462,8 +1435,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <value>这是用于确认已经添加到属于你的Virtual Radar Server站点公共目录的站点。你可以通过访问路径站点(http://sdm.virtualradarserver.co.uk)，创建一个帐号并在帐号部分输入你的站点的详情来添加你的站点到目录中。复制详情中的密钥到本字段。\r\n\r\n如果你不想把你的站点添加到公共目录只需将该项保留为空。</value>
   </data>
   <data name="OptionsDescribeDownloadGlobalAirPressureReadings" xml:space="preserve">
-    <value>Yes to periodically download air pressure settings from the Internet, no to disable the downloads. Air pressure readings are used to convert from the pressure altitudes reported by the aircraft to the actual altitude.</value>
-    <comment>** SAME AS ENGLISH **</comment>
+    <value>是 从Internet定期下载气压设置，否 禁用下载。气压读数用于将飞机报告的气压高度转换为实际高度。</value>
   </data>
   <data name="OptionsDescribeEnableBundling" xml:space="preserve">
     <value>是 合并多个CSS 或者 JavaScript 文件到一个单独的下载, 否  保持文件独立.</value>
